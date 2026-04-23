@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Beranda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://i.pinimg.com/736x/e1/61/13/e161137bda1e0a962774c2c9ad5f29b1.jpg);
+            margin: 0;
+        }
+
+        header {
+            background-image: url (https://id.pinterest.com/c2e2049f-99d3-4d97-8c26-7e5a9ae17018.jpg);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-image: url(#85C79A);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* GRID UTAMA */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        /* TEKS KIRI */
+        .content-text h2 {
+            color: #4E8D9C;
+        }
+
+        .content-text p {
+            text-align: justify;
+        }
+
+        /* GRID GAMBAR KANAN */
+    .content-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 0;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .content-gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+        footer {
+            background-color: #124170;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* RESPONSIVE (HP) */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO RAYAKA AZRI</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-grid">
+
+        <!-- BAGIAN KIRI: TEKS (WAJIB DIISI SENDIRI) -->
+        <div class="content-text">
+
+            <h2>Selamat Datang di Website Portofolio</h2>
+            <p>
+                Website ini merupakan media pendukung untuk menampilkan hasil
+                Ujian Praktik Terintegrasi. Konten utama pada website ini adalah
+                video broadcasting pembelajaran yang berisi penyampaian teks
+                argumentasi secara lisan.
+            </p>
+
+            <h2>Tentang Website Ini</h2>
+            <p>
+                Website ini merupakan website portofolio digital yang berisi
+                hasil karya dan pembelajaran saya selama mengikuti Ujian Praktik
+                Terintegrasi.
+            </p>
+
+            <h2>Tujuan Pembuatan Website</h2>
+            <p>
+                Tujuan pembuatan website ini adalah untuk menampilkan karya
+                yang telah saya buat serta melatih kemampuan saya dalam
+                membuat website sederhana menggunakan HTML.
+            </p>
+
+            <h2>Topik Argumentasi dan Alasan Pemilihan</h2>
+            <p>
+                <i>
+                Saya memilih Dapoer Yaspia sebagai tempat pelaksanaan Internship Curriculum karena peminatan saya pada bidang Cooking, yang juga merupakan bagian dari Kurikulum Entrepreneur di SMPIT Al Haraki.
+                </i>
+            </p>
+
+            <h2>Harapan dari Video</h2>
+            <p>
+                <i>
+                Harapannya dari video ini, penonton mampu menerima ilmu yang diajarkan dalam video. Serta mampu mempelajari berbagai teknik dalam mmebuat berbagai makanan ataupun minuman.
+                </i>
+            </p>
+
+            <h2>Refleksi, Kesan, dan Pesan</h2>
+            <p>
+                <i>
+                Hal-hal yang bisa saya pelajari dari ujian praktik di level 9 ini yaitu dapat melatih untuk bisa menyelesaikan masalah secara mandiri, melatih public speaking ketika presentasi, serta bersabar dalam menyelesaikan semua tantangan. Diberikan kesempatan belajar di SMPIT Al Haraki adalah suatu hal yang membanggakan untuk saya. Di sini, saya dipertemukan dengan banyak teman-teman hebat baik secara akademik maupun non-akademik. Bagi saya pribadi, SMPIT Al Haraki juga mengajarkan tentang kemandirian, hidup berprinsip, tidak bergantung kepada orang lain, dan banyak nilai-nilai kebaikan yang mungkin tidak akan ditemukan di luar SMPIT Al Haraki. Saya berpesan kepada SMPIT Al Haraki, untuk bersama-sama dengan siswa, orang tua murid, guru, staf sekolah, untuk salong membantu demi kemajuan SMPIT Al Haraki, dan juga agar siswa menerima kualitas pendidikan yang terbaik.
+                </i>
+            </p>
+
+        </div>
+
+        <!-- BAGIAN KANAN: GRID GAMBAR (BEBAS KREATIF) -->
+        <div class="content-gallery">
+            <img src="https://i.pinimg.com/1200x/76/68/70/766870e04835e3dab9b2d814fbcd6e35.jpg" alt="Gambar Bebas 1">
+            <img src="https://i.pinimg.com/736x/11/08/ea/1108ea2b228ebb17abfbe02257443b12.jpg" alt="Gambar Bebas 2">
+            <img src="https://i.pinimg.com/1200x/a8/cf/f4/a8cff40d5b27b26704052bc5a6a04a21.jpg" alt="Gambar Bebas 3">
+            <img src="https://i.pinimg.com/736x/26/d7/7c/26d77c26961735a80b973baed8895f23.jpg" alt="Gambar Bebas 4">
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Rayaka Azri </p>
+</footer>
+
+</body>
+</html>
